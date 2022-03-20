@@ -31,5 +31,18 @@ function squere(array){
 }
 ```
 ---
-## **Experience**
+## **Experience:**
 ### [Game Tic-Tac-Toe](https://Alex77784.github.io/tic-tac-toe)
+---
+## **Education:**
+* ### University: MGU name A.A Kuleshov, Teacher ( physical education)
+* ## Courses
+   * IT "Overone" Pyhton (offline)
+   * [Stepik HTML & SCC](https://stepik.org/cert/1178544)
+   * Selfeducation:
+      * Materials for explore:
+        * Youtube
+        * Technical documentation from sources 
+***
+## **English:**
+* [English](https://simpler.link/c/4Layg) (in the process explore)
