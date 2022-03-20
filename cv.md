@@ -13,9 +13,23 @@
 ## **About Myself:**
 ### I work in the interests of the company, I try to realize my full potential, I also like to study new technologies in an effort to constantly improve the level of work.
 ---
-## **Skylls**
+## **Skylls:**
 * ### HTML5
 * ### CSS3
 * ### JS ES6
-* ### Git, GitHab
+* ### Git, GitHub
 * ### Figma, Photoshop
+---
+## **Code Example:**
+```
+function squere(array){
+   let result = [];
+   array.forEach(element => {
+      result.puch(element * element)
+   });
+   return result;
+}
+```
+---
+## **Experience**
+### [Game Tic-Tac-Toe](https://Alex77784.github.io/tic-tac-toe)
