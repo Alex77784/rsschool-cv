@@ -1,5 +1,3 @@
-## ***[rsschool](https://www.google.by/)***
----
 # **Romashkevich Alexander**
 
 ## *Jonior Frontend Developer*
