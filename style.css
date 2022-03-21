@@ -1,8 +1,4 @@
-
-html {
-	scroll-behavior: smooth; 
-  }
-
+/*Обнуление*/
 *{
 	padding: 0;
 	margin: 0;
@@ -27,7 +23,6 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	scroll-behavior: smooth;
 }
 input,button,textarea{font-family:inherit;}
 
@@ -41,3 +36,218 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------320px-575px-767px-991px-1200------------*/
+html {
+	scroll-behavior: smooth; 
+  }
+body{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434a54;
+    background-color: #f5f7fa;
+}
+/* ==========header=========== */
+.header {
+	background-color: rgb(181, 181, 255);
+}
+.list {
+	display: flex;
+	justify-content: end;
+}
+.nav-link{
+	display: block;
+	font-size: 1.5rem;
+	margin: 20px;
+}
+.nav-link:hover {
+	text-shadow:1px 1px 1px white;
+}
+/* ==========main=========== */
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+
+	background-color:rgb(204, 228, 255) ;
+}
+.container__ava{
+	display: flex;
+	border-bottom: 10px solid rgb(150, 150, 150);
+	max-width: 97%;
+	margin: 0 auto;
+}
+.foto{
+	margin: 20px 0 20px 100px;
+}
+.foto-ava{
+	border-radius: 20px;
+	border: 2px solid white;
+}
+.name{
+margin: 50px auto;
+text-align: center;
+}
+.h1{
+	font-size: 32px;
+	color: darkblue;
+	border-bottom:1px solid darkblue;
+}
+.name-h2{
+	font-size: 24px;
+	color: darkblue;
+	margin-top: 30px;
+}
+/* ----------------section_contact--------------- */
+.general_section{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom:30px ;
+}
+.contact {
+border-bottom: 1px solid black;
+max-width: 48%;
+width: 100%;
+padding-bottom: 30px;
+margin-left: 15px;
+}
+.h2__section {
+	font-size: 26px;
+	font-weight: 500;
+
+	color: rgb(150, 150, 150);
+	margin: 20px;
+}
+.list__section {
+	font-size: 18px;
+	line-height: 2.5rem;
+}
+.item__section::before{
+	content: '';
+	display: inline-block;
+	border-radius: 3px;
+	width: 10px;
+	height: 10px;
+	border: 3px solid darkblue;
+	margin:0 10px 0 30px;
+}
+	/* ----------------section_summary--------------- */
+
+	.summary{
+	border-bottom: 1px solid black;
+	max-width: 48%;
+	width: 100%;
+	padding-bottom: 30px;
+	margin-left: 15px;
+}	
+.summary_text {
+	font-size: 16px;
+}
+/* --------------------section_skills---------------- */
+
+.skills {
+	border-bottom: 1px solid black;
+	max-width: 48%;
+	width: 100%;
+	padding-bottom: 30px;
+	margin-left: 15px;
+}
+.list__skills {
+	font-size: 18px;
+	line-height: 2.5rem;
+}
+.item__skills::before {
+	content: '';
+	display: inline-block;
+	border-radius: 3px;
+	width: 10px;
+	height: 10px;
+	border: 3px solid darkblue;
+	margin:0 10px 0 30px;
+}
+/* ------------------section_code---------------- */
+
+.code{
+	border-bottom: 1px solid black;
+	max-width: 48%;
+	width: 100%;
+	padding-bottom: 30px;
+	margin-left: 15px;	
+}
+.code_text{
+	font-size: 16px;
+}
+/* ------------------section_Education------------- */
+
+.education{
+	border-bottom: 1px solid black;
+	max-width: 48%;
+	width: 100%;
+	padding-bottom: 30px;
+	margin-left: 15px;	
+}
+.list__education {
+	font-size: 18px;
+	line-height: 2.5rem;
+}
+.item__edcation::before {
+	content: '';
+	display: inline-block;
+	border-radius: 3px;
+	width: 10px;
+	height: 10px;
+	border: 3px solid darkblue;
+	margin:0 10px 0 30px;
+}
+.indent{
+margin: -10px 0 0 30px;
+}
+.indent::before{
+	content: '';
+	display: inline-block;
+	border-radius: 3px;
+	width: 10px;
+	height: 10px;
+	border: 2px solid rgb(134, 134, 134);
+	margin:0 10px 0 30px;
+}
+.indent2{
+	margin: -10px 0 0 60px;
+}
+.indent2::before{
+	content: '';
+	display: inline-block;
+	border-radius: 3px;
+	width: 10px;
+	height: 10px;
+	background-color:  darkblue;
+	margin:0 10px 0 30px;
+}
+/*----------------section_English-------------*/
+.english {
+	border-bottom: 1px solid black;
+	max-width: 48%;
+	width: 100%;
+	padding-bottom: 30px;
+	margin-left: 15px;
+}
+.english_text{
+	font-size: 16px;
+}
+/* ------------------End section------------- */
+.line {
+ max-width: 97%;
+ width: 100%;
+ height: 10px;
+
+ margin: 30px auto 0;
+ background-color: rgb(150, 150, 150);
+}
+/* ==========footer=========== */
+
+.footer {
+	background-color: rgb(181, 181, 255);
+}
+.footer-list {
+	display: flex;
+	justify-content: space-around;
+}
